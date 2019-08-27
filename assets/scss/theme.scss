@@ -1,0 +1,15 @@
+.menu {
+	// Specific nav menus.
+	&--primary {
+		.menu__items {
+            > li {
+				&:before {
+					content: "";
+					position: absolute;
+					width: 40px;
+					border-top: 2px solid var(--color-primary);
+				}
+			}
+		}
+    }
+}
